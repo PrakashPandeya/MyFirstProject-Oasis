@@ -331,6 +331,22 @@
     images[1] = "img/bb.png";
     images[2] = "img/cc.png";
 
+    function changeImg() {
+      document.slide.src = images[i];
+
+      if (i < images.length - 1) {
+        //creating an if statement if the length of the array is less then the variable i
+        i++;
+      } else {
+        i = 0;
+      }
+
+      setTimeout("changeImg()", time);
+    }
+
+    window.onload = changeImg;
+  </script>
+</html>
 
 
 
