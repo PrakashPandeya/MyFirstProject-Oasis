@@ -82,4 +82,60 @@
             bottom: 40px;
             text-transform: capitalize;
           "
+        >
+          Message:<input
+            style="width: 200px; height: 70px"
+            type="tel"
+            name="Message"
+          />
+        </p>
+        <p>
+          <a href="/Index.html"
+            ><input
+              style="
+                margin-left: 390px;
+                position: relative;
+                top: 25px;
+                cursor: pointer;
+              "
+              type="button"
+              value="Back"
+          /></a>
+        </p>
+        <p>
+          <input
+            style="
+              margin-left: 850px;
+              position: relative;
+              bottom: 13px;
+              right: 300px;
+            "
+            type="submit"
+            value="Send"
+          />
+        </p>
+      </form>
+    </section>
+  </body>
+
+  <script type="text/javascript">
+    function validateForm() {
+      var Full_Name = document.forms["form"]["Full_Name"].value;
+      var Email = document.forms["form"]["Email"].value;
+      var Phone_Number = document.forms["form"]["Phone_Number"].value;
+      var Message = document.forms["form"]["Message"].value;
+      if (
+        Full_Name == "" ||
+        Email == "" ||
+        Phone_Number == "" ||
+        Message == ""
+      ) {
+        alert("Please fill the form");
+      } else {
+        alert("Thankyou you for your feedback ");
+      }
+    }
+  </script>
+</html>
+
        
