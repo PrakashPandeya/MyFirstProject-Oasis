@@ -84,3 +84,18 @@
     </section>
     >
   </body>
+
+  <!--create a script to check whether the the inputs gmail and password are empty or not-->
+  <script type="text/javascript">
+    function validateForm() {
+      var Gmail = document.forms["form"]["Gmail"].value;
+      var Password = document.forms["form"]["Password"].value;
+      if (Gmail == "" || Password == "") {
+        alert("Please fill the form");
+      } else {
+        alert("Purchesed successfully ");
+      }
+    }
+  </script>
+</html>
+
