@@ -28,5 +28,13 @@
      </body> 
 
      <script type="text/javascript">
-      function validateForm() 
+      function validateForm()
+       { var Gmail = document.forms["form"]["Gmail"].value; 
+      var Password = document.forms["form"]["Password"].value;
+        if (Gmail == "" || Password == "" ) 
+        { alert("Please fill the form"); 
+          } 
+      else { alert("Purchesed successfully ") } } 
+      </script> 
+</html> 
 
