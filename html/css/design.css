@@ -1,0 +1,62 @@
+* {
+    /* this applies to every part of the page */
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body {
+    /*change all the text style in body  */
+    font-family: "Maiandra GD", regular;
+  }
+  nav {
+    /*turn the nav bar background into the given color and height and width*/
+    background: #92b4ec;
+    height: 106px;
+    width: 100%;
+  }
+  .logo {
+    /*move the image logo*/
+    position: relative;
+    bottom: 5px;
+  }
+  nav ul {
+    /*move the buttons in the navigation bar */
+    float: right;
+    margin-right: 60px;
+    position: relative;
+    bottom: 135px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  nav ul li {
+    /*make the buttons in the nav bar appere horizontal insted of vertical*/
+    display: inline-block;
+    line-height: 0px;
+    margin: 0 8px;
+  }
+  nav ul li a {
+    /*turn the color of the text into white and it's font size. */
+    color: white;
+    font-size: 25px;
+    padding: 7px 14px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  li a :hover {
+    /*create a hover effect with color red on the buttons*/
+    color: red;
+  }
+  
+  .name {
+    /*move the text and change the size and text style*/
+    position: relative;
+    display: block;
+    bottom: 100px;
+    left: 160px;
+    font-size: 27px;
+    color: #9dfffc;
+    width: 500px;
+  }
+  
