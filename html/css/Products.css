@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+/* Reset default margins and set the font family to sans-serif */
+}
+
+h2{
+   text-align: center;
+   font-size: 30px;
+   margin: 0;
+   padding-top: 10px;
+/* Style for the h2 headings */
+
+}
+
+
+.One{
+   display: flex;
+   flex-wrap: wrap; /* This flex-wrap property specifies how flex items should wrap within a flex container*/
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   margin: 50px 0;
+/* Style for the class "One" */
+}
+
+.Two{
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.25);/* This code adds shadow to the box */
+  transition: .4s;/*This is the transition time to show the element*/
+  background: #f2f2f2;
+  /* Style for a product box */
+
+}
+.Two:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+/*This code adds a hover effect to the element with the class "Two".
+It adds a box-shadow and translates the element vertically by -8px. */
+}
