@@ -120,3 +120,78 @@ button{
 
 }
 
+.buy-9{
+	background: darkorange;
+}
+
+.buy-8{
+	background: darkorange;
+}
+
+.buy-10{
+	background: darkorange;
+}
+
+.buy-1{
+	background: darkorange;
+}
+
+.buy-2{
+	background: darkorange;
+}
+
+.buy-3{
+	background: darkorange;
+}
+
+.buy-5{
+	background: darkorange;
+}
+
+.buy-7{
+	background: darkorange;
+}
+
+.buy-6{
+	background: darkorange;
+}
+
+.buy-4{
+	background: darkorange;
+}
+
+h1{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 22px;
+   font-family: Times, "Times New Roman", Georgia, serif;
+   border-radius: 40px;
+   font-size: 50px;
+
+
+
+}
+
+.copy{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+   font-family: Times, "Times New Roman", Georgia, serif;
+   border-radius: 5px;
+   font-size: 15px;
+
+} 
+
+footer{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400;
+	background-color: #ededed;
+	height: 270px;
+  
+  }
+
+  .footer ul
+
+
