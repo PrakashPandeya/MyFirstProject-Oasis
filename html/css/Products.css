@@ -48,3 +48,75 @@ h2{
 /*This code adds a hover effect to the element with the class "Two".
 It adds a box-shadow and translates the element vertically by -8px. */
 }
+
+div a img{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto;
+	 display: block;
+	 /*This code adjust the margin height of img class*/
+
+}
+
+
+p{
+	text-align: center;
+	color: #b2bec3;
+	padding-top: 0 8px;
+	text-align: center;
+	/* This code styles the "p" element by setting the text alignment to center,
+the text color to a light blue-gray (#b2bec3), adding top padding of 8px, and
+again aligning the text to center. */
+}
+
+h6{
+	font-size: 26px;
+	text-align: center;
+	color: #222f3e;
+	margin: 0;
+	/* This code styles the "h6" element by setting the font size to 26px,
+text alignment to center, text color to a dark blue-gray (#222f3e),
+and removing the margin. */
+}
+
+div ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0px;
+	/* This code styles an unordered list "ul" by removing the list-style,
+displaying the items as a flex container, aligning the items to center,
+justifying the content to center, and removing top padding. */
+}
+
+div ul li{
+	padding-top: 5px;
+	color: orange;
+	font-size: 26px;
+	transition: .4s;
+	margin: 6px;
+	align-content: left;
+}
+
+div ul li:hover{
+	transform: scale(2.0);
+	transition: .6s;
+}
+
+button{
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	width: 100%;
+	padding:15px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	margin-top: 5px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+}
+
