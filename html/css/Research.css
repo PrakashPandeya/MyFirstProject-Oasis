@@ -47,4 +47,51 @@ footer {
     height: 35px;
     margin-left: 300px;
     margin-bottom: 5px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+  }
+  .iimg {
+    width: 44px;
+    height: 40px;
+    margin-left: 150px;
+    padding: 0;
+    position: relative;
+    left: 470px;
+    top: 30px;
+  }
+  
+  .eimg {
+    width: 44px;
+    height: 40px;
+    margin-left: 300px;
+    padding: 0;
+    position: relative;
+    right: 70px;
+    top: 30px;
+  }
+  
+  .pimg {
+    width: 54px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 0;
+    position: relative;
+    right: 70px;
+    top: 36px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .leftcolm {
+    flex: 50%;
+  }
+  
+  .rightcolm {
+    flex: 50%;
+    background-color: #4b4c4d;
+  }
+  
   
