@@ -99,3 +99,52 @@ div ul li{
 	margin: 6px;
 	align-content: left;
 }
+
+div ul li:hover{
+	transform: scale(2.0);
+	transition: .6s;
+}
+
+button{
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	width: 100%;
+	padding:15px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	margin-top: 5px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+}
+
+.buy-9{
+	background: darkorange;
+}
+
+.buy-8{
+	background: darkorange;
+}
+
+.buy-10{
+	background: darkorange;
+}
+
+.buy-1{
+	background: darkorange;
+}
+
+.buy-2{
+	background: darkorange;
+}
+
+.buy-3{
+	background: darkorange;
+}
+
+.buy-5{
+	background: darkorange;
+}
+
