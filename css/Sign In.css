@@ -43,4 +43,44 @@ body {
     border: none;
     border-bottom: 2px solid #c1c1c1;
   }
+
+  input[type="password"] + label {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .Hi {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #c1c1c1;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #c1c1c1;
+  }
+  
+  input[type="text"] + label {
+    margin-top: 10px;
+    font-size: 16px;
+  }
   
