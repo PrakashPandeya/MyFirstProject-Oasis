@@ -1,0 +1,46 @@
+body {
+    background-color: #f2f2f2;
+    background-image: url("20.jpeg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+  }
+  
+  .middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #c1c1c1;
+    padding: 50px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #c1c1c1;
+  }
+  
